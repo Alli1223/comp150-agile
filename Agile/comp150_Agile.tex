@@ -26,7 +26,7 @@
 
 \maketitle
 
-\abstract{Agile methods require constant effective communication of the development team in order to work effectively, there are a wide range of communication methods that are available, such as; video conferencing, telephone and instant messaging. This paper will address which method of communication will be most appropriate for game developers and the problems that occur with using such methods.}
+\abstract{Agile methods require constant effective communication of the development team in order to work effectively. This paper reviews communication issues that can occur with distributed development and the possible solutions to these problems. This paper recommends \textit{Agile Communication Model for Distributed Software Development} by S.Bhalerao for distributed game developers. }
 
 \section{Introduction}
 
@@ -34,8 +34,7 @@ This paper reviews the adoption of the Agile/scrum development method, and the p
 
 Agile is a set of principles, which allows for change and constant iteration of software in development. One of the principles of scrum, which is an agile development method, is that it should have daily communication between the team members \cite{abdullah2011}, in the form of a daily stand up meeting. This is where each member tells the scrum master what they will work on that day, what they have been working on and any problems they are encountering. 
 
-This method of working has become very popular with game developers \cite{campbell2016}, so this paper aims to address how communication between teams that are working in different locations can be improved. 
-
+This method of working has become very popular with game developers \cite{campbell2016}, so this paper aims to address how communication between distributed teams can be improved. 
 Face to face communication is suggested to be the most effective form of communication \cite{joshi2013}. However as this is not possible, this paper will propose alternatives to aid in distributed teams.
 
 
@@ -49,13 +48,13 @@ Face to face communication is suggested to be the most effective form of communi
 \section{Communication issues and possible solutions}
 \subsection{Communication issues}
 
-One common communication issue with new game developers that are adhering to scrum, is that the developers will tend to act as the product owner and try to ``improve'' the design without consulting the product owner \cite{krasteva2008}. This miscommunication can lead to a product that was not desired by the product owner, and the failure of a project. \par
+One common communication issue with new game developers that are adhering to scrum, is that the developers will tend to act as the product owner and try to ``improve'' the design without consulting the product owner \cite{krasteva2008}. This miscommunication can lead to a product that was not desired by the product owner, and possibly the failure of the project. \par
 
- Story cards and social activity are key to the success of co-located teams \cite{abdullah2011}. \par
 
-Another issue with scrum is that it can be too cumbersome to follow and keep everyone updated \cite{scharff2012}. This can become an issue when teams are using multiple forms of communication, and then deveopers may have to repeat themselves on multiple communication tools, such as trello, slack and email in order to reach all the team members. \par
 
-Another very common communication issue is that the daily scrum meetings are unable to happen, for example the developers are located in different locations as in the case of scharffs paper \cite{scharff2012}. In this paper they have a team of students located around the world and various communication issues occurred, including team members being absent for most of the scrum meetings. 
+Another issue with scrum is that it can be too cumbersome to follow and keep everyone updated \cite{scharff2012}. This can become an issue when teams are using multiple forms of communication, and then developers may have to repeat themselves on multiple communication tools, such as trello, slack and email in order to reach all the team members. \par
+
+Another common communication issue is that the daily scrum meetings are unable to happen, for example the developers are located in different locations as in the case of scharffs paper \cite{scharff2012}. In this paper they have a team of students located around the world and various communication issues occurred, including team members being absent for most of the scrum meetings. 
 
 Here is a list of the main possible communication issues \cite{joshi2013}: 
 
@@ -69,10 +68,9 @@ Here is a list of the main possible communication issues \cite{joshi2013}:
 \item Miscommunication of Requirement
 \end{enumerate}
 
-Communication with people of different cultures and languages is a big cause of communication issues, and one that is hard to avoid when working in a distributed team \cite{cohn2003}.
+Communication with people of different cultures and languages is a big cause of communication issues, and one that is hard to avoid when working in a distributed team from multiple countries. \cite{cohn2003}.
 
-The story cards consist of three parts, \textit{the card, conversation and confirmation} \cite{abdullah2011}, This means when a card gets put up on a communication tool, e.g. trello, the teams should discuss the card to ensure that everyone is in agreement about what it means. 
-
+Story cards and social activity are apparently key to the success of co-located teams \cite{abdullah2011}. The story cards consist of three parts, \textit{the card, conversation} and \textit{confirmation}, This means when a card gets put up on a communication tool, e.g. trello, the teams should discuss the card to ensure that everyone is in agreement about what it means. \par
 
 
 
@@ -82,7 +80,7 @@ The story cards consist of three parts, \textit{the card, conversation and confi
 
 
 The paper \textit{Agile Communication Model for Distributed Software Development} \cite{bhalerao2010} proposes an agile model that apparently works in a distributed environment efficiently. This method involves intra and inter pair programming among the distributed team members. 
-This could be a very effective solution for distributed game developers as typically game development is formed of a few different departments, such as Art, Design, programming etc.. This means that each department would have a Proxy Customer that can communicate the requirements of the game from the customer/product owner and share the requirements of the product within their own team. \ref{fig:ACM} This streamlines communication and saves a lot of un-nessassry communication with the product owner.
+This could be a very effective solution for distributed game developers as typically game development is formed of a few different departments, such as Art, Design, programming etc.. This means that each department would have a Proxy Customer that can communicate the requirements of the game from the customer/product owner and share the requirements of the product within their own team  as Fig:\ref{fig:ACM} illustrates. This streamlines communication and saves a lot of unnecessary communication with the product owner. However this model does not work as effectively when the group is not more than a few people, as it relies on there being multiple teams located in different locations.
 
 \begin{figure}[p]
     \centering
@@ -99,18 +97,17 @@ Olly Brands talk brings up some interesting points at the Agile-on-the-Beach con
 \item Establish a routine and stay organized to be productive. 
 \end{itemize}
 
-One great solution to replacing post it notes is online projcet managing software e.g. Trello. This is a ``freemium'' product that allows developers to manage cards containing individual components of the software. This means that 
+One great solution to replacing post it notes is on-line project managing software e.g. Trello. This is a ``freemium'' product that allows developers to manage cards containing individual components of the software. This is an easy form of communication as it gives a visual representation of how the project fits together, and the individual tasks that make up the software.
+
+As Mike Cohn and Doris Ford say, ``bring as many people as possible together for the first week or two of the project can increase the likelihood of success.'' \cite{cohn2003} as the first few weeks of a project normally requires the most amount communication, so having face-to-face communication to get across the overall idea and aim of the project will help reduce confusion later in the project, this is because face-to-face communication is the most effective way of conveying information within a development team \cite{williams2012}.
 
 
-As Mike Cohn and Doris Ford say, ``bring as many people as possible together for the first week or two of the project can increase the likelihood of success.'' \cite{cohn2003} as the first few weeks of a project normally requires the most amount communication, so having face-to-face communication to get across the overall idea and aim of the project will help reduce confusion later in the project, this is because face-to-face communication is the most effecctive way of conveying information within a development team \cite{williams2012}.
-
-
-Organise a fundamental infrastrure before starting the project, such as a shared source control repository \cite{dinakar2009}. Furthermore having an agreed active and passive forms of communication, such as video conferencing (Active) E-Mail (passive) can improve communication and productivity \cite{joshi2013}. This means that developers can organise a time to do a video conference for every sprint and then use passive forms of communication for the daily scrum.
+Organize a fundamental infrastructure before starting the project, such as a shared source control repository \cite{dinakar2009}. Furthermore having an agreed active and passive forms of communication, such as video conferencing (active) E-Mail (passive) can improve communication and productivity \cite{joshi2013}. This means that developers can organize a time to do a video conference for every sprint and then use passive forms of communication for the daily scrum.
 
 
 \section{Conclusion}
 
-Agile development for distributed teams causes a lot of communication issues, however to help improve this communication this paper recomends to use Bhaleraos Agile Communication Model \cite{bhalerao2010}. 
+Agile development for distributed teams causes a lot of communication issues, however to help improve this communication this paper recommends to use the Agile Communication Model by Bhaleraos \cite{bhalerao2010} for game developers, because of it's effective use for multiple distributed teams. Furthermore this paper suggests that if possible developers should start projects together in the same location, and talk about the project face-to-face for the first few weeks before distributing the development, the success of the project will be greater.
 
 %References:
 %\cite{bhalerao2010}
